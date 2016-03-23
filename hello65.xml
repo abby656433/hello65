@@ -8,5 +8,17 @@
     <statement name="DO">
       <block type="movement_forward" id="37"></block>
     </statement>
+    <next>
+      <block type="controls_repeat" id="51" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="68">
+            <field name="NUM">10000</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_reverse" id="61"></block>
+        </statement>
+      </block>
+    </next>
   </block>
 </xml>
