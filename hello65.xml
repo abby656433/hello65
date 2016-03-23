@@ -1,1 +1,12 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat" id="27" inline="true" x="-21" y="-4">
+    <value name="TIMES">
+      <block type="math_number" id="44">
+        <field name="NUM">10000</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="37"></block>
+    </statement>
+  </block>
+</xml>
